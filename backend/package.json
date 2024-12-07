@@ -12,5 +12,18 @@
     "nodemailer": "^6.9.15",
     "socket.io": "^4.8.0",
     "zod": "^3.23.8"
-  }
+  },
+  "name": "internet-service",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
